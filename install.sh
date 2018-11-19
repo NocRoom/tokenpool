@@ -1,12 +1,12 @@
 set -eux
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt-get install -y nodejs redis-server build-essential
-
+sudo apt-get install -y nodejs redis-server screen redis build-essential -y
+sudo npm install -g node-gyp
+sudo npm i npm@latest -g
+git clone https://github.com/NocRoom/tokenpool.git
+cd tokenpool/
 npm install
-npm install redis
-npm install ethereum-blockies
 npm run webpack
-
-
-sudo apt-get install python3-pip  libssl-dev -y
-sudo pip3 install ethereum
+mv sample.account.config.js account.config.js
+mv sample.pool.config.js pool.config.js
+npm run server
