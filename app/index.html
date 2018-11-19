@@ -3,9 +3,7 @@
 
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <title>
-    <%= htmlWebpackPlugin.options.title %>
-  </title>
+  <title><%= htmlWebpackPlugin.options.title %> - NocRoom 0xbitcoin Pool</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
     crossorigin="anonymous">
 
@@ -21,29 +19,17 @@
 
     <div class="page-container slate-theme " id="home">
     <p></p>
-             <a href="https://0xltc.org" target="_blank">
-               <div class='button-bubble button-white button'>0xLitecoin</div>
+             <a href="https://nocroom.com/fpga" target="_blank">
+               <div class='button-bubble button-white button'>Quad FPGA Mining Rig NR104</div>
              </a>
-             <a href="https://0xltc.org/wallet" target="_blank">
-               <div class='button-bubble button-white button'>0xLitecoin wallet</div>
-             </a>
-             <a href="https://enclaves.io/trade/0xLTC" target="_blank">
-               <div class='button-bubble button-white button'>Trade 0xLitecoin</div>
-             </a>
-             <a href="https://0xgold.io" target="_blank">
-               <div class='button-bubble button-white button'>0xGold</div>
-             </a>
-             <br />
-             <br />
-    <img src="https://cdn-images-1.medium.com/max/1600/0*v4gDPpsCm8arBRc-.png" />
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/G-Vje80VbWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
       <section class="hero circuit-overlay">
         <div class="hero-body">
           <div class="container has-text-centered" id='jumbotron'>
-            <iframe src="https://discordapp.com/widget?id=434889683177046016&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" style="float:left;"></iframe>
             <h1 class="title font-primary-title color-primary">
-              Mike.rs Mining Pool
+              0xBitcoin NocRoom Mining Pool
             </h1>
              <a href="/account" target="_blank">
                <div class='button-bubble button-white button'>View Account Shares</div>
@@ -57,7 +43,7 @@
               <p>Payments: {{pool.poolData.paymentAddress}}</p>
             </a>
             <p>
-              <a href="http://github.com/snissn/tokenpool/" target=_blank>
+              <a href="http://github.com/nocroom/tokenpool/" target=_blank>
                 <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width=50 />
               </a>
             </p>
@@ -87,37 +73,18 @@
             </div>
 
             <div class="whitespace-sm"></div>
-            <p>
-              <a class='button' href="https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/">Download Windows Nvidia HashburnerV3 Miner (Opensource+Newest+Fastest Release)</a>
-            </p>
-            <p>
-              <a class='button' href="https://github.com/azlehria/0xbitcoin-gpuminer/releases">Download Windows Nvidia Azlehria Miner (Opensource+Newest+Fastest Release)</a>
-            </p>
-            <p>
-              <a class='button' href="https://github.com/mining-visualizer/MVis-tokenminer/releases">Download AMD MVI Miner</a>
-            </p>
-            <hr>
-            <p>Older/Slower Miner I released:</p>
-            <p>
-              <a class='button' href="http://mike.rs/0xbitcoin-windows-gpu-miner.9.4.Azlehria.zip">Download Open source Mikers/Azlehria miner - Windows + Nvidia (Slower, Older but stable)</a>
-            </p>
-            <!--<p>(Opensource+Newest+Fastest Release) <a href="https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/" target=_blank>Link to download + source: https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/</a> </p>
-
-      <p>  v.9.4 Azlehria More speed + stability bugfixes.<a target=_blank href="https://github.com/snissn/0xbitcoin-gpuminer/tree/reduction">Github</a></p>
-      -->
-            <p><a class='button' href="http://mike.rs/0xbitcoin-linux-2018-04-04.zip">Download Open source Linux Mikers/Azlehria miner</a></p>
              <br />
             <pre style="text-align:left;">
             Cosmic Miner Mining Instructions:
 
             account select 0xYOURACCOUNT
-            pool select http://mike.rs:8080
+            pool select http://0xbtc.pool.nocroom.com:8080
             pool mine cuda
 
             Azlehria Gaiden Mining Instructions:
             {
               "address" : "0xYOU",
-              "pool" : "http://mike.rs:8080",
+              "pool" : "http://0xbtc.pool.nocroom.com:8080",
               "cuda" : [
                 {
                   "device": 0,
@@ -159,13 +126,8 @@
 
             </pre>
 <pre style="text-align:left;">Pool difficulty was increased to 64K to reduce server load. If you have an overall low hash rate across your miners, consider switching to the 8K Diff pool:
-pool select http://b.mike.rs:8080
+pool select http://0xbtc.pool.nocroom.com:8080
 </pre>
-             <a href="https://docs.google.com/spreadsheets/d/1lpQufwMHeozyz2X5Xq9MhjLr_hVTkQfzpzXcdFQDRGg/edit#gid=0" target="_blank">
-               <div class='button-bubble button-white button'>Cat of Profits Mining Profitability Calculator</div>
-             </a>
-             <br />
-             <a href="https://docs.google.com/spreadsheets/d/1lpQufwMHeozyz2X5Xq9MhjLr_hVTkQfzpzXcdFQDRGg/edit#gid=0" target=_blank ><img src='https://media.discordapp.net/attachments/429103257026297866/434971809432207360/CatOfProfits.png?width=842&height=633' width=400 /></a>
 
             <div class="whitespace-sm"></div>
 
@@ -204,32 +166,13 @@ pool select http://b.mike.rs:8080
               </p>
               <hr>
               <p>Connect to this pool with
-                <pre>pool select http://mike.rs:8080</pre>
+                <pre>pool select http://0xbtc.pool.nocroom.com:8080</pre>
               </p>
               <hr>
               <p>Start mining with 'pool mine cuda'</p>
             </div>
           </div>
         </div>
-        <p>Cuda Mining Guide</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jNtNw-YsqQU" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-        <p>Multi-Card Mining Guide</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ALh6DaRPob8" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-        <p>AMD Mining Guide</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/W-gLERwzKno" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-        <br />
-        <a href="https://docs.google.com/spreadsheets/d/1lpQufwMHeozyz2X5Xq9MhjLr_hVTkQfzpzXcdFQDRGg/edit#gid=0" target="_blank">
-          <div class='button-bubble button-white button'>Cat of Profits Mining Profitability Calculator</div>
-        </a>
-        <br />
-        <a href="https://docs.google.com/spreadsheets/d/1lpQufwMHeozyz2X5Xq9MhjLr_hVTkQfzpzXcdFQDRGg/edit#gid=0" target=_blank>
-          <img src='https://media.discordapp.net/attachments/429103257026297866/434971809432207360/CatOfProfits.png?width=842&height=633'
-            width=400 />
-        </a>
-
       </div>
 
       <div id="solutiontxlist" class="box background-secondary transaction-list tab-pane active box background-secondary" style="overflow-x:auto; min-height:480px;">
@@ -294,11 +237,7 @@ pool select http://b.mike.rs:8080
         <h4>Notes</h4>
         <p> Hashrate estimate reliability is being worked on. Share #s are reliable </p>
         <p> Also working on adding graphs to the account page </p>
-        <p>Payouts from db reset here:
-          <a href="https://docs.google.com/spreadsheets/d/10gpAcym3o4ywAUsy1YAaAehTA0DgymLZxYVWGbC5h9Q/edit#gid=187626846" target=_blank>https://docs.google.com/spreadsheets/d/10gpAcym3o4ywAUsy1YAaAehTA0DgymLZxYVWGbC5h9Q/edit#gid=187626846</a>
-        </p>
-        <!--<p>Data in the database was reset Saturday evening 4/15/2018 because of a brief and now resolved issue with the geth light client causing the database to be in an inconsistent state. The pool has since upgraded to a full geth client. Unsent payouts under the payout threshold of 15 0xBTC will be sent out manually from a database snapshot in the next week (or two). This should not happen again because of the switch to a full geth node. Sorry about this!</p>-->
-      </div>
+        </div>
       </div>
 
 
@@ -322,18 +261,9 @@ pool select http://b.mike.rs:8080
         </div>
 
         <div class="">
-          <P>
-            <img src="https://images-ext-1.discordapp.net/external/6FXDqa-sPWh7keBvNiTTgztjltUhuL0wPNX2tcMj_BM/https/i.imgur.com/SS7jqLt.png"
-            />
-          </p>
-
-
           <p> Read more on
-            <a href="https://reddit.com/r/tokenmining" target="_blank"> Reddit </a>
+            <a href="https://www.reddit.com/r/xtoken/" target="_blank"> Reddit </a>
           </p>
-
-
-
         </div>
       </div>
 
