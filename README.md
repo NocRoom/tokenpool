@@ -9,7 +9,7 @@ A pool for mining RC20 Tokens
 ###### Ubuntu 16+ 64bit #########
 run script for auto install
 wget https://github.com/NocRoom/tokenpool/blob/master/install.sh
-###### Ubuntu 16+ 64bit #########
+
 
 CSS Colors: https://flatuicolors.com/palette/au
 
@@ -53,3 +53,7 @@ LRANGE broadcasted_payments 0 -1
 ## TODO / BUGS
 - Add more clustering/workers and more JSONRPC/socket ports to handle heavy loads
 - Make sure good solns ARE BEING TRANFERRED
+
+
+All Fiber, Cloud, USA , Low Fee 0xbitcoin Pool
+http://0xbtc.pool.nocroom.com/
