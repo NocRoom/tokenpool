@@ -1,9 +1,4 @@
 ### 0xbitcoin Token Mining Pool  
-
-Developed by the 0xBitcoin Community
-
-(GNU PUBLIC LICENSE)
-
 A pool for mining RC20 Tokens
 
 ## Easy Auto Install
