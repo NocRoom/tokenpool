@@ -1,3 +1,5 @@
+Looking for servers for your pool? https://nocroom.com
+
 ### 0xbitcoin Token Mining Pool  
 
 Developed by the 0xBitcoin Community
