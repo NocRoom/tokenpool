@@ -9,8 +9,8 @@ Developed by the 0xBitcoin Community
 A pool for mining RC20 Tokens
 
 ###### Ubuntu 16+ 64bit #########
-run script for auto install
-wget https://github.com/NocRoom/tokenpool/blob/master/install.sh
+* run script for "auto" install # wget https://github.com/NocRoom/tokenpool/blob/master/install.sh
+* to update pool to latest # ./updatepool.sh (move this script to 1 level down from main root folder /tokenpool)
 
 
 CSS Colors: https://flatuicolors.com/palette/au
