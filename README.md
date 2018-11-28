@@ -2,7 +2,7 @@
 A pool for mining RC20 Tokens
 
 ## Easy Auto Pool Install
-* Clean Ubuntu 16+ 64bit
+* Clean "server" Ubuntu 16+ 64bit
 * Run script for "auto" install # wget https://github.com/NocRoom/tokenpool/blob/master/install.sh
 
 ## Easy Pool Update 
