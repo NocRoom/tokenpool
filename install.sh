@@ -19,5 +19,5 @@ mv sample.account.config.js account.config.js
 mv sample.pool.config.js pool.config.js
 
 # Starting
-verbose "Starting her up"
+verbose "Starting NocRoom TokenPool"
 npm run server
